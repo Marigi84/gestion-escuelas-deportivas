@@ -1,0 +1,22 @@
+name: Documentación
+description: Crear o actualizar documentación del proyecto
+labels: ["tipo: documentación"]
+body:
+  - type: input
+    id: documento
+    attributes:
+      label: Documento o sección
+      placeholder: docs/03-reglas-de-negocio/
+    validations:
+      required: true
+  - type: textarea
+    id: contenido
+    attributes:
+      label: Qué hay que documentar
+    validations:
+      required: true
+  - type: textarea
+    id: terminado
+    attributes:
+      label: Definición de terminado
+      placeholder: "- [ ] ..."
