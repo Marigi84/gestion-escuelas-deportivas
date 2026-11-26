@@ -12,7 +12,7 @@
 
 **RN-04 – Meses sin cuota.** Cada escuela configura, por año, los meses en que no se cobra cuota. Valor inicial de Rojas FC: enero.
 
-**RN-05 – Vencimiento.** La cuota vence el día configurado por la escuela (Rojas FC: día 10). Si ese día no es hábil, el vencimiento pasa al **siguiente** día hábil, nunca a uno anterior. El administrador puede ajustar manualmente el vencimiento de un mes (por ejemplo, por un feriado puente).
+**RN-05 – Vencimiento.** El vencimiento no es un día fijo: se define para cada mes. La escuela configura un día de referencia (Rojas FC: el 10) y el sistema propone ese día o, si no es hábil, el siguiente día hábil, nunca uno anterior. El administrador confirma o ajusta la fecha de cada mes.
 
 ## Descuentos
 

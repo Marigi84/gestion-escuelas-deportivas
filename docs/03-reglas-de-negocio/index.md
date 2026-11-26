@@ -24,7 +24,7 @@ Las reglas se definieron con la escuela piloto, **Rojas Fútbol Club**, el 26/11
 | Monto de la cuota | Único para todos los alumnos | RN-01 |
 | Frecuencia de actualización | Aprox. 3 veces al año | RN-02 |
 | Meses sin cuota | Enero | RN-04 |
-| Día de vencimiento | 10 (o siguiente día hábil) | RN-05 |
+| Vencimiento | Variable por mes; referencia día 10 o siguiente hábil | RN-05 |
 | Descuento por hermanos | Porcentaje fijo | RN-06 |
 | Recargo por mora | Porcentaje, un escalón | RN-08, RN-09 |
 | Formas de pago | Efectivo y transferencia | RN-11 |
