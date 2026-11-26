@@ -8,7 +8,7 @@ Este proyecto parte de dos trabajos previos para Rojas Fútbol Club.
 
 ## Sistema de gestión (Trabajo Final Integrador)
 
-[rojas-fc-gestion](https://github.com/Marigi84/rojas-fc-gestion): sistema web de gestión administrativa desarrollado como Trabajo Final Integrador de la Tecnicatura Universitaria en Programación (UTN) por Marina Giselle Cordero, Silvia Giardini y Alex Pedro Dauria.
+[rojas-fc-gestion](https://github.com/Marigi84/rojas-fc-gestion): sistema web de gestión administrativa desarrollado como Trabajo Final Integrador de la Tecnicatura Universitaria en Programación (UTN).
 
 - **Stack:** React + TypeScript + Vite, Spring Boot + JPA, MySQL, JWT.
 - **Implementado y probado:** autenticación y roles, alumnos, responsables y categorías por año de nacimiento, cuotas con generación automática, interés y morosidad, pagos y recibos con anulación, dashboard y portal del responsable.
