@@ -19,7 +19,7 @@ Según lo acordado en la [minuta inicial](gestion/minutas/2026-11-26-minuta-inic
 
 1. **Análisis y Diseño:** las secciones 01 a 06 de este sitio.
 2. **Registro de decisiones (ADR):** [docs/adr](adr/index.md).
-3. **Backlog del producto:** el tablero de GitHub Projects y los [issues](https://github.com/Marigi84/gestion-escuelas-deportivas/issues).
+3. **Backlog del producto:** el [tablero de GitHub Projects](https://github.com/users/Marigi84/projects/5) y los [issues](https://github.com/Marigi84/gestion-escuelas-deportivas/issues).
 
 ## Origen
 

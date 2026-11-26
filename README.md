@@ -39,7 +39,7 @@ backend/     API (pendiente)
 
 ## Gestión del proyecto
 
-El trabajo se planifica en GitHub Projects con issues, hitos e iteraciones. Ver [flujo de trabajo](docs/gestion/flujo-de-trabajo.md) y [CONTRIBUTING.md](CONTRIBUTING.md).
+El trabajo se planifica en el tablero de [GitHub Projects](https://github.com/users/Marigi84/projects/5) con issues, hitos e iteraciones. Ver [flujo de trabajo](docs/gestion/flujo-de-trabajo.md) y [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Ver la documentación localmente
 
