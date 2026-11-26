@@ -2,7 +2,7 @@
 
 ## Herramientas
 
-- **GitHub Projects:** tablero del producto (backlog e iteraciones).
+- **GitHub Projects:** [tablero del producto](https://github.com/users/Marigi84/projects/5) (backlog e iteraciones).
 - **Issues:** cada unidad de trabajo, con plantillas por tipo.
 - **Pull Requests:** todo cambio entra a `main` mediante PR.
 - **Docs-as-code:** documentación en Markdown dentro del repositorio, publicada con MkDocs.
