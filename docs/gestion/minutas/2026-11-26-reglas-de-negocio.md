@@ -28,5 +28,5 @@ Detalle en [Reglas de negocio](../../03-reglas-de-negocio/index.md).
 ## Próximos pasos
 
 - Confirmar el día de vencimiento (el Trabajo Final indica el día 13).
-- Decidir si se parte del código del Trabajo Final.
+- Se decidió desarrollar desde cero, reutilizando piezas del Trabajo Final ([ADR-005](../../adr/0005-desarrollo-desde-cero.md)).
 - Luego: casos de uso y modelo de datos.

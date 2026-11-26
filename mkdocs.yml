@@ -72,6 +72,7 @@ nav:
       - ADR-002 Preinscripciones: adr/0002-preinscripciones-con-aprobacion.md
       - ADR-003 Pagos: adr/0003-pagos-confirmados-por-servidor.md
       - ADR-004 Multidisciplina: adr/0004-plataforma-multidisciplina.md
+      - ADR-005 Desarrollo desde cero: adr/0005-desarrollo-desde-cero.md
   - Gestión:
       - Roadmap: gestion/roadmap.md
       - Flujo de trabajo: gestion/flujo-de-trabajo.md
