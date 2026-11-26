@@ -6,7 +6,7 @@
 
 - Cuota de monto único, actualizada unas 3 veces al año, con historial de vigencias.
 - Descuento por hermanos: mismo porcentaje para todos los hermanos, sin importar cuántos sean. No hay otros descuentos.
-- Se cobra el mes en curso. Vencimiento el día 10 o el siguiente día hábil. Enero sin cuota (configurable).
+- Se cobra el mes en curso. Vencimiento variable por mes: el sistema sugiere el día 10 y el administrador lo confirma o modifica. Enero sin cuota (configurable).
 - Recargo porcentual configurable sobre el saldo de la cuota con descuento; posibilidad de un segundo escalón; el administrador puede condonarlo.
 - Pagos parciales y adelantados permitidos; se cancela primero la deuda más antigua; un aumento posterior deja la diferencia pendiente.
 - Formas de pago: efectivo y transferencia verificada con comprobante. Una transferencia puede cubrir a varios hermanos y se reparte en un pago por alumno.
