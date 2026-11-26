@@ -9,7 +9,7 @@ Existe un sistema de gestión para Rojas FC desarrollado como Trabajo Final Inte
 
 ## Decisión
 
-El sistema nuevo se desarrolla **desde cero**. Se reutilizan del Trabajo Final las piezas que encajen con el nuevo diseño (por ejemplo, componentes de interfaz, validaciones, pruebas o partes del modelo), revisándolas y adaptándolas, y se indica su origen.
+El sistema nuevo se desarrolla **desde cero**. Se reutilizan del Trabajo Final las piezas que encajen con el nuevo diseño (por ejemplo, componentes de interfaz, validaciones, pruebas o partes del modelo), revisándolas y adaptándolas.
 
 ## Alternativas consideradas
 
@@ -20,4 +20,3 @@ El sistema nuevo se desarrolla **desde cero**. Se reutilizan del Trabajo Final l
 - El modelo de datos y la arquitectura se diseñan para el alcance nuevo sin condicionamientos.
 - Lleva más tiempo hasta tener un sistema funcionando.
 - El Trabajo Final sirve como referencia de reglas, pantallas y casos de prueba.
-- El código reutilizado se identifica con su origen, ya que el Trabajo Final tiene coautores.
