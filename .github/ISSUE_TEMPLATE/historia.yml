@@ -1,0 +1,28 @@
+name: Historia de usuario
+description: Funcionalidad desde el punto de vista de un usuario
+title: "HU: "
+labels: ["tipo: historia"]
+body:
+  - type: textarea
+    id: historia
+    attributes:
+      label: Historia
+      value: |
+        Como [rol],
+        quiero [acción],
+        para [beneficio].
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      placeholder: |
+        - [ ] Dado ..., cuando ..., entonces ...
+    validations:
+      required: true
+  - type: textarea
+    id: reglas
+    attributes:
+      label: Reglas de negocio y requisitos relacionados
+      placeholder: RN-XX, RF-XX

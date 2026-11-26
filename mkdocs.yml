@@ -1,0 +1,70 @@
+site_name: Gestión de Escuelas Deportivas
+site_description: Documentación del sistema de gestión para escuelas deportivas
+site_author: Marina
+repo_url: https://github.com/Marigi84/gestion-escuelas-deportivas
+repo_name: Marigi84/gestion-escuelas-deportivas
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: red
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - scheme: slate
+      primary: red
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.action.edit
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Inicio: index.md
+  - Visión y alcance:
+      - Visión: 01-vision-y-alcance/vision.md
+      - Alcance v1.0: 01-vision-y-alcance/alcance-v1.md
+      - Backlog futuro: 01-vision-y-alcance/backlog-futuro.md
+  - Requisitos:
+      - Funcionales: 02-requisitos/requisitos-funcionales.md
+      - No funcionales: 02-requisitos/requisitos-no-funcionales.md
+      - Historias de usuario: 02-requisitos/historias-de-usuario.md
+  - Reglas de negocio: 03-reglas-de-negocio/index.md
+  - Modelo de datos: 04-modelo-de-datos/index.md
+  - Arquitectura: 05-arquitectura/index.md
+  - Sitio público: 06-sitio-publico/rojas-fc.md
+  - ADR:
+      - Índice: adr/index.md
+      - Plantilla: adr/plantilla.md
+      - ADR-001 Multiescuela: adr/0001-sistema-multiescuela.md
+      - ADR-002 Preinscripciones: adr/0002-preinscripciones-con-aprobacion.md
+      - ADR-003 Pagos: adr/0003-pagos-confirmados-por-servidor.md
+      - ADR-004 Multidisciplina: adr/0004-plataforma-multidisciplina.md
+  - Gestión:
+      - Roadmap: gestion/roadmap.md
+      - Flujo de trabajo: gestion/flujo-de-trabajo.md
+      - Riesgos: gestion/riesgos.md
+      - Minutas:
+          - 2026-11-26 Minuta inicial: gestion/minutas/2026-11-26-minuta-inicial.md
