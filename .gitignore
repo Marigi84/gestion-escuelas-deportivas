@@ -1,0 +1,25 @@
+# Docs
+site/
+.venv/
+__pycache__/
+
+# Node
+node_modules/
+dist/
+
+# Java
+target/
+build/
+.gradle/
+
+# IDE / SO
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Entorno
+.env
+.env.*
+!.env.example
