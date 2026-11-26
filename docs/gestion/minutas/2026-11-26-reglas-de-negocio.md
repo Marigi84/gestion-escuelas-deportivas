@@ -15,7 +15,18 @@
 
 Detalle en [Reglas de negocio](../../03-reglas-de-negocio/index.md).
 
+## Segunda parte
+
+- Alta a mitad de mes con proporcional manual; las cuotas corren hasta la baja; la deuda se conserva; ajustes manuales con historial.
+- Reactivación por el administrador, que decide si exige la deuda previa. Categoría = año de nacimiento.
+- Solo administradores, con iguales permisos; escuelas independientes; profesores sin acceso en la v1.0.
+- Autoregistro de escuelas con verificación de mail; baja con conservación de datos por 6 meses; superadministradora en modo soporte auditado.
+- Portal: acceso por WhatsApp o mail, DNI como usuario y contraseña inicial con cambio obligatorio; el tutor solo consulta.
+- Dashboard con deuda, cuotas adeudadas, deudores y recaudación ocultable; reportes de recaudación, tutores y altas/bajas.
+- Se revisó el Trabajo Final de Rojas FC y se incorporaron sus mejoras pendientes al backlog.
+
 ## Próximos pasos
 
-- Reglas pendientes: escuelas, usuarios, bajas y reingresos de alumnos, portal y reportes.
+- Confirmar el día de vencimiento (el Trabajo Final indica el día 13).
+- Decidir si se parte del código del Trabajo Final.
 - Luego: casos de uso y modelo de datos.

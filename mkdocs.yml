@@ -47,6 +47,7 @@ nav:
       - Visión: 01-vision-y-alcance/vision.md
       - Alcance v1.0: 01-vision-y-alcance/alcance-v1.md
       - Backlog futuro: 01-vision-y-alcance/backlog-futuro.md
+      - Antecedentes: 01-vision-y-alcance/antecedentes.md
   - Requisitos:
       - Funcionales: 02-requisitos/requisitos-funcionales.md
       - No funcionales: 02-requisitos/requisitos-no-funcionales.md
@@ -57,6 +58,10 @@ nav:
       - Pagos: 03-reglas-de-negocio/pagos.md
       - Recibos: 03-reglas-de-negocio/recibos.md
       - Preinscripciones: 03-reglas-de-negocio/preinscripciones.md
+      - Alumnos: 03-reglas-de-negocio/alumnos.md
+      - Usuarios y escuelas: 03-reglas-de-negocio/usuarios-y-escuelas.md
+      - Portal de familias: 03-reglas-de-negocio/portal.md
+      - Dashboard y reportes: 03-reglas-de-negocio/reportes.md
   - Modelo de datos: 04-modelo-de-datos/index.md
   - Arquitectura: 05-arquitectura/index.md
   - Sitio público: 06-sitio-publico/rojas-fc.md

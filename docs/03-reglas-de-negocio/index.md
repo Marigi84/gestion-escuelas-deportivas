@@ -12,6 +12,10 @@ Las reglas se definieron con la escuela piloto, **Rojas Fútbol Club**, el 26/11
 | [Pagos](pagos.md) | RN-11 a RN-18 |
 | [Recibos](recibos.md) | RN-19 a RN-24 |
 | [Preinscripciones y datos de inscripción](preinscripciones.md) | RN-25 a RN-29 |
+| [Alumnos: altas, bajas y categorías](alumnos.md) | RN-30 a RN-36 |
+| [Usuarios y escuelas](usuarios-y-escuelas.md) | RN-37 a RN-43 |
+| [Portal de familias](portal.md) | RN-44 a RN-48 |
+| [Dashboard y reportes](reportes.md) | RN-49 a RN-54 |
 
 ## Configuración por escuela
 
@@ -24,6 +28,7 @@ Las reglas se definieron con la escuela piloto, **Rojas Fútbol Club**, el 26/11
 | Descuento por hermanos | Porcentaje fijo | RN-06 |
 | Recargo por mora | Porcentaje, un escalón | RN-08, RN-09 |
 | Formas de pago | Efectivo y transferencia | RN-11 |
+| Criterio de categoría | Año de nacimiento | RN-36 |
 
 ## Ejemplo integrado
 
@@ -34,12 +39,6 @@ Con valores ilustrativos: cuota $30.000, descuento por hermanos 10 %, recargo 10
 3. Se emiten dos recibos; el segundo informa un saldo de $14.000 (RN-19, RN-20).
 4. Pasado el vencimiento, el saldo de $14.000 recibe un recargo de $1.400 (RN-08, RN-13).
 
-## Temas pendientes
+## Antecedente
 
-Quedan por definir las reglas de:
-
-- Escuelas: alta, desactivación y conservación de datos.
-- Usuarios: roles, permisos y alcance del superadministrador.
-- Alumnos: baja, reingreso y cambio de categoría (por ejemplo, si una baja a mitad de mes paga la cuota completa).
-- Portal de familias: acceso y recuperación de contraseña.
-- Reportes: filtros, campos y protección de datos.
+Varias reglas evolucionan las del sistema desarrollado como Trabajo Final Integrador para Rojas FC (ver [antecedentes](../01-vision-y-alcance/antecedentes.md)). Las principales diferencias son los pagos parciales, el pago familiar repartido entre hermanos, el descuento por hermanos y el importe proporcional al alta.
