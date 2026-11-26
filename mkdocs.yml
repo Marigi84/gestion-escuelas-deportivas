@@ -51,7 +51,12 @@ nav:
       - Funcionales: 02-requisitos/requisitos-funcionales.md
       - No funcionales: 02-requisitos/requisitos-no-funcionales.md
       - Historias de usuario: 02-requisitos/historias-de-usuario.md
-  - Reglas de negocio: 03-reglas-de-negocio/index.md
+  - Reglas de negocio:
+      - Índice: 03-reglas-de-negocio/index.md
+      - Cuotas, descuentos y recargos: 03-reglas-de-negocio/cuotas.md
+      - Pagos: 03-reglas-de-negocio/pagos.md
+      - Recibos: 03-reglas-de-negocio/recibos.md
+      - Preinscripciones: 03-reglas-de-negocio/preinscripciones.md
   - Modelo de datos: 04-modelo-de-datos/index.md
   - Arquitectura: 05-arquitectura/index.md
   - Sitio público: 06-sitio-publico/rojas-fc.md
@@ -68,3 +73,4 @@ nav:
       - Riesgos: gestion/riesgos.md
       - Minutas:
           - 2026-11-26 Minuta inicial: gestion/minutas/2026-11-26-minuta-inicial.md
+          - 2026-11-26 Reglas de negocio: gestion/minutas/2026-11-26-reglas-de-negocio.md

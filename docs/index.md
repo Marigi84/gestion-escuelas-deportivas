@@ -8,7 +8,7 @@ Documentación del proyecto de una plataforma web para administrar escuelas depo
 |---|---|
 | Visión y alcance v1.0 | Borrador acordado |
 | Requisitos funcionales y no funcionales | Borrador |
-| Reglas de negocio | **Próximo capítulo** |
+| Reglas de negocio | Cuotas, pagos, recibos y preinscripciones definidas; resto pendiente |
 | Modelo de datos | Pendiente |
 | Arquitectura | Stack propuesto, a formalizar |
 | Implementación | No iniciada |

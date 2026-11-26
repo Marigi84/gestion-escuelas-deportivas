@@ -1,67 +1,45 @@
 # Reglas de negocio
 
-!!! warning "Próximo capítulo"
-    Es el siguiente capítulo acordado y debe completarse **antes de diseñar la base de datos**. Este documento lista los temas a definir y las preguntas abiertas.
+Reglas que gobiernan el comportamiento del sistema. Cada regla tiene un identificador `RN-XX` que se referencia desde historias de usuario, casos de uso y pruebas.
 
-Cada regla se registrará con un identificador `RN-XX`, su descripción, el módulo, ejemplos y la fuente (quién la validó y cuándo).
+Las reglas se definieron con la escuela piloto, **Rojas Fútbol Club**, el 26/11/2026. Siguiendo [ADR-004](../adr/0004-plataforma-multidisciplina.md), los valores concretos (porcentajes, días, meses) son **configurables por escuela**; los de Rojas FC figuran como valores iniciales.
 
-## Temas a definir
+## Capítulos
 
-### Escuelas
-- Alta, desactivación y personalización.
-- Conservación de datos al desactivar una escuela.
-- Configuración de disciplinas, categorías, vocabulario y campos adicionales.
+| Capítulo | Reglas |
+|---|---|
+| [Cuotas, descuentos y recargos](cuotas.md) | RN-01 a RN-10 |
+| [Pagos](pagos.md) | RN-11 a RN-18 |
+| [Recibos](recibos.md) | RN-19 a RN-24 |
+| [Preinscripciones y datos de inscripción](preinscripciones.md) | RN-25 a RN-29 |
 
-### Usuarios
-- Creación, roles y permisos.
-- Administradores de varias escuelas.
-- Alcance exacto del superadministrador.
+## Configuración por escuela
 
-### Alumnos
-- Alta, baja, reingreso.
-- Cambio de categoría.
-- Observaciones e historial.
+| Parámetro | Valor inicial Rojas FC | Regla |
+|---|---|---|
+| Monto de la cuota | Único para todos los alumnos | RN-01 |
+| Frecuencia de actualización | Aprox. 3 veces al año | RN-02 |
+| Meses sin cuota | Enero | RN-04 |
+| Día de vencimiento | 10 (o siguiente día hábil) | RN-05 |
+| Descuento por hermanos | Porcentaje fijo | RN-06 |
+| Recargo por mora | Porcentaje, un escalón | RN-08, RN-09 |
+| Formas de pago | Efectivo y transferencia | RN-11 |
 
-### Tutores
-- Vínculos con alumnos, hermanos.
-- Responsable de pago.
+## Ejemplo integrado
 
-### Preinscripciones
-- Estados (pendiente, aprobada, rechazada, incompleta).
-- Aprobación, correcciones y detección de duplicados.
-- Datos obligatorios del formulario.
+Con valores ilustrativos: cuota $30.000, descuento por hermanos 10 %, recargo 10 %.
 
-### Cuotas
-- Generación mensual.
-- Altas y bajas durante el mes (¿cuota completa o proporcional?).
-- Vencimientos, intereses por mora y descuentos (por ejemplo, por hermanos).
+1. Dos hermanos activos: cada cuota queda en $27.000 (RN-06).
+2. La familia paga $40.000 por transferencia el día 8. El administrador verifica el comprobante y reparte $27.000 a un hermano y $13.000 al otro (RN-12, RN-16).
+3. Se emiten dos recibos; el segundo informa un saldo de $14.000 (RN-19, RN-20).
+4. Pasado el vencimiento, el saldo de $14.000 recibe un recargo de $1.400 (RN-08, RN-13).
 
-### Pagos
-- Formas de pago.
-- Pagos parciales e imputación a varias cuotas.
-- Anulaciones y reembolsos.
+## Temas pendientes
 
-### Recibos
-- Numeración (por escuela, correlativa, sin saltos).
-- Datos obligatorios.
-- Inmutabilidad y anulación.
-- Carácter fiscal o interno.
+Quedan por definir las reglas de:
 
-### Portal de familias
-- Permisos y acceso.
-- Recuperación de contraseña.
-
-### Reportes
-- Filtros, formatos y campos.
-- Protección de datos según el rol.
-
-## Preguntas abiertas para Rojas FC
-
-1. ¿Cuál es el monto de la cuota y varía por categoría?
-2. ¿Qué día vence la cuota?
-3. ¿Se cobra recargo por mora? ¿Monto fijo o porcentaje? ¿Desde qué día?
-4. ¿Hay descuento por hermanos u otros descuentos?
-5. ¿Se aceptan pagos parciales?
-6. ¿Qué formas de pago se usan (efectivo, transferencia, otra)?
-7. ¿Los recibos tienen valor fiscal o son comprobantes internos?
-8. ¿Qué datos se piden hoy en la inscripción?
+- Escuelas: alta, desactivación y conservación de datos.
+- Usuarios: roles, permisos y alcance del superadministrador.
+- Alumnos: baja, reingreso y cambio de categoría (por ejemplo, si una baja a mitad de mes paga la cuota completa).
+- Portal de familias: acceso y recuperación de contraseña.
+- Reportes: filtros, campos y protección de datos.
