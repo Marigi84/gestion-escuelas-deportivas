@@ -4,6 +4,8 @@ Reglas que gobiernan el comportamiento del sistema. Cada regla tiene un identifi
 
 Las reglas se definieron con la escuela piloto, **Rojas Fútbol Club**, el 26/11/2026. Siguiendo [ADR-004](../adr/0004-plataforma-multidisciplina.md), los valores concretos (porcentajes, días, meses) son **configurables por escuela**; los de Rojas FC figuran como valores iniciales.
 
+Los términos del dominio están definidos en el [glosario](glosario.md).
+
 ## Capítulos
 
 | Capítulo | Reglas |

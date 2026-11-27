@@ -1,7 +1,7 @@
 # Arquitectura
 
 !!! info "Propuesta"
-    El stack se formalizará mediante ADR en la etapa de arquitectura.
+    El stack está propuesto en [ADR-007](../adr/0007-stack-tecnologico.md) y el aislamiento multiescuela en [ADR-006](../adr/0006-aislamiento-multiescuela.md).
 
 ## Stack propuesto
 
@@ -35,7 +35,6 @@ flowchart LR
 
 ## Temas pendientes
 
-- Estrategia de aislamiento multiescuela en la base de datos.
 - Autenticación (incluida la autenticación offline).
 - Sincronización y resolución de conflictos.
 - Almacenamiento de archivos (logos, recibos).

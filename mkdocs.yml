@@ -54,6 +54,7 @@ nav:
       - Historias de usuario: 02-requisitos/historias-de-usuario.md
   - Reglas de negocio:
       - Índice: 03-reglas-de-negocio/index.md
+      - Glosario: 03-reglas-de-negocio/glosario.md
       - Cuotas, descuentos y recargos: 03-reglas-de-negocio/cuotas.md
       - Pagos: 03-reglas-de-negocio/pagos.md
       - Recibos: 03-reglas-de-negocio/recibos.md
@@ -73,6 +74,10 @@ nav:
       - ADR-003 Pagos: adr/0003-pagos-confirmados-por-servidor.md
       - ADR-004 Multidisciplina: adr/0004-plataforma-multidisciplina.md
       - ADR-005 Desarrollo desde cero: adr/0005-desarrollo-desde-cero.md
+      - ADR-006 Aislamiento multiescuela: adr/0006-aislamiento-multiescuela.md
+      - ADR-007 Stack tecnológico: adr/0007-stack-tecnologico.md
+      - ADR-008 Historial y auditoría: adr/0008-historial-y-auditoria.md
+      - ADR-009 Numeración de recibos: adr/0009-numeracion-de-recibos.md
   - Gestión:
       - Roadmap: gestion/roadmap.md
       - Flujo de trabajo: gestion/flujo-de-trabajo.md
