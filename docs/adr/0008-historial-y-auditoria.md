@@ -1,7 +1,7 @@
 # ADR-008: Historial, bajas lógicas y auditoría
 
-- **Estado:** Propuesta
-- **Fecha:** 2026-11-26
+- **Estado:** Aceptada
+- **Fecha:** 2026-11-26 (aceptada el 2026-11-27)
 
 ## Contexto
 

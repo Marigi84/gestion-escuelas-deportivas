@@ -1,7 +1,7 @@
 # ADR-009: Numeración correlativa de recibos por escuela
 
-- **Estado:** Propuesta
-- **Fecha:** 2026-11-26
+- **Estado:** Aceptada
+- **Fecha:** 2026-11-26 (aceptada el 2026-11-27)
 
 ## Contexto
 
