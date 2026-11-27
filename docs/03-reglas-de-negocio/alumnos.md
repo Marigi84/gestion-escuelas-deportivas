@@ -8,7 +8,7 @@
 
 **RN-32 – Deuda al dar de baja.** La baja no elimina la deuda: queda registrada y visible en el historial del alumno.
 
-**RN-33 – Ajuste manual de deuda.** El administrador puede modificar manualmente el importe de una cuota o de una deuda. Cada ajuste registra el importe anterior, el nuevo, el motivo, el administrador y la fecha.
+**RN-33 – Ajuste y anulación de deuda.** El administrador puede modificar manualmente el importe de una cuota, o anular cualquier deuda (cuota, recargo, evento o pedido de indumentaria). Cada ajuste o anulación registra el importe anterior, el nuevo, el motivo, el administrador y la fecha. Nada se borra.
 
 ## Reincorporación
 
@@ -18,4 +18,4 @@
 
 ## Categorías
 
-**RN-36 – Categoría.** Cada escuela elige uno de dos criterios ([ADR-004](../adr/0004-plataforma-multidisciplina.md)): **por año de nacimiento**, calculada automáticamente (Rojas FC), o **asignada** a mano por el administrador. Cada categoría tiene sus días, horarios y lugar. Los cambios de grupo que decide el profesor no se gestionan en el sistema en la v1.0.
+**RN-36 – Categoría.** En la v1.0 la categoría de un alumno es su **año de nacimiento**, y el sistema la calcula a partir de la fecha de nacimiento. No se guarda aparte ni se asigna a mano. Las categorías propias de cada escuela (por ejemplo, "Sub-12" o "Principiantes") y sus horarios quedan para una versión futura ([ADR-004](../adr/0004-plataforma-multidisciplina.md)). Los cambios de grupo que decide el profesor no se gestionan en el sistema en la v1.0.

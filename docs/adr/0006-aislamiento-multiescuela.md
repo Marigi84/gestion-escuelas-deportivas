@@ -1,7 +1,7 @@
 # ADR-006: Aislamiento multiescuela con columna de escuela y Row Level Security
 
-- **Estado:** Propuesta
-- **Fecha:** 2026-11-26
+- **Estado:** Aceptada
+- **Fecha:** 2026-11-26 (aceptada el 2026-11-27)
 
 ## Contexto
 

@@ -63,6 +63,7 @@ nav:
       - Usuarios y escuelas: 03-reglas-de-negocio/usuarios-y-escuelas.md
       - Portal de familias: 03-reglas-de-negocio/portal.md
       - Dashboard y reportes: 03-reglas-de-negocio/reportes.md
+      - Eventos e indumentaria: 03-reglas-de-negocio/eventos-e-indumentaria.md
   - Modelo de datos: 04-modelo-de-datos/index.md
   - Arquitectura: 05-arquitectura/index.md
   - Sitio público: 06-sitio-publico/rojas-fc.md
@@ -86,3 +87,4 @@ nav:
           - 2026-11-26 Minuta inicial: gestion/minutas/2026-11-26-minuta-inicial.md
           - 2026-11-26 Reglas de negocio: gestion/minutas/2026-11-26-reglas-de-negocio.md
           - 2026-11-26 Conciliación: gestion/minutas/2026-11-26-conciliacion.md
+          - 2026-11-27 Modelo conceptual: gestion/minutas/2026-11-27-modelo-conceptual.md

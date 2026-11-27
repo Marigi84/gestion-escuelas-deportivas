@@ -13,6 +13,12 @@ Los datos de salud (alergias, condiciones médicas y apto médico) son sensibles
 
 **RN-27 – Aprobación.** Una preinscripción está **pendiente**, **aprobada** o **rechazada**. Como los campos obligatorios se exigen en el formulario, no hay estado "incompleta". El administrador la revisa: si la aprueba, se crea el alumno y se crea o vincula el tutor; si la rechaza, no genera alumno.
 
+Para no duplicar datos, al aprobarla se borran los datos personales de la preinscripción y quedan su estado, la fecha, quién la aprobó y el alumno que generó. Los datos de una preinscripción rechazada se borran a los 30 días.
+
 **RN-28 – Carga directa.** El administrador también puede dar de alta un alumno cargando los datos él mismo en el momento, sin pasar por el formulario.
 
-**RN-29 – Duplicados.** El DNI identifica al alumno y al tutor dentro de la escuela. Si ya existe un tutor con ese DNI, se vincula en lugar de crear uno nuevo; si ya existe el alumno, el sistema lo advierte antes de aprobar.
+**RN-29 – Duplicados.** El DNI identifica al alumno dentro de su escuela y al tutor en toda la plataforma (RN-45). Al revisar una preinscripción:
+
+- si ya existe un tutor con ese DNI, se vincula en lugar de crear uno nuevo;
+- si el alumno ya existe en la escuela, el sistema lo advierte y ofrece reactivarlo (RN-34);
+- si hay otra preinscripción pendiente con el mismo DNI de alumno, el sistema lo advierte.

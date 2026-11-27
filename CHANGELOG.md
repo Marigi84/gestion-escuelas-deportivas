@@ -5,7 +5,9 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). E
 ## [Sin publicar]
 
 ### Agregado
-- ADR-006 a ADR-009 (propuestas): aislamiento multiescuela, stack tecnológico, historial y auditoría, y numeración de recibos.
+- Modelo conceptual de datos revisado.
+- Reglas de eventos e indumentaria (RN-55 a RN-60) y RN-61 a RN-63; pagos sin conexión en la v1.0.
+- ADR-006 a ADR-009 (aceptadas el 2026-11-27): aislamiento multiescuela, stack tecnológico, historial y auditoría, y numeración de recibos.
 - Glosario del dominio.
 - Conciliación de requisitos, historias, ADR y reglas antes del modelo de datos: apertura del mes, saldo a favor, anulación parcial de pagos familiares, cuenta única de tutor, anonimización y alcance configurable de la v1.0. RF-18 y HU-14.
 - ADR-004 aceptada.

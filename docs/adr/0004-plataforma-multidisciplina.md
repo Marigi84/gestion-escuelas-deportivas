@@ -34,6 +34,6 @@ El proyecto nació como sistema para escuelas de fútbol. Se decidió ampliarlo 
 
 Decidido el 2026-11-26:
 
-- **Configurable:** nombre, logo, colores, contacto, disciplina, categorías con días, horarios y lugar, monto de la cuota, vencimiento sugerido, descuento por hermanos, recargos, meses sin cuota y formas de pago.
-- **Criterio de categoría:** por año de nacimiento (calculada) o asignada a mano ([RN-36](../03-reglas-de-negocio/alumnos.md)).
-- **Para una versión futura:** vocabulario propio y campos adicionales del alumno.
+- **Configurable:** nombre, logo, colores, contacto, disciplina, monto de la cuota, vencimiento sugerido, descuento por hermanos, recargos y formas de pago.
+- **Categoría:** el año de nacimiento, calculado ([RN-36](../03-reglas-de-negocio/alumnos.md); actualizado el 2026-11-27).
+- **Para una versión futura:** categorías propias con horarios, vocabulario propio y campos adicionales del alumno.
