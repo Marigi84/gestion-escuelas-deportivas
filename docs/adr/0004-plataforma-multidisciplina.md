@@ -1,6 +1,6 @@
 # ADR-004: Plataforma multidisciplina con configuración por escuela
 
-- **Estado:** Propuesta
+- **Estado:** Aceptada
 - **Fecha:** 2026-11-26
 
 ## Contexto
@@ -28,4 +28,12 @@ El proyecto nació como sistema para escuelas de fútbol. Se decidió ampliarlo 
 
 - Mayor alcance de mercado y reutilización.
 - Diseño más cuidadoso del modelo de datos (categorías y campos configurables).
-- Hay que limitar la configurabilidad para no complicar la v1.0: se definirá qué es configurable y qué no en las reglas de negocio.
+- Hay que limitar la configurabilidad para no complicar la v1.0.
+
+## Alcance en la v1.0
+
+Decidido el 2026-11-26:
+
+- **Configurable:** nombre, logo, colores, contacto, disciplina, categorías con días, horarios y lugar, monto de la cuota, vencimiento sugerido, descuento por hermanos, recargos, meses sin cuota y formas de pago.
+- **Criterio de categoría:** por año de nacimiento (calculada) o asignada a mano ([RN-36](../03-reglas-de-negocio/alumnos.md)).
+- **Para una versión futura:** vocabulario propio y campos adicionales del alumno.

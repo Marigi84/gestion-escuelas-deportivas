@@ -5,6 +5,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). E
 ## [Sin publicar]
 
 ### Agregado
+- Conciliación de requisitos, historias, ADR y reglas antes del modelo de datos: apertura del mes, saldo a favor, anulación parcial de pagos familiares, cuenta única de tutor, anonimización y alcance configurable de la v1.0. RF-18 y HU-14.
+- ADR-004 aceptada.
 - Reglas de negocio RN-30 a RN-54: alumnos, usuarios y escuelas, portal de familias, dashboard y reportes.
 - Antecedentes: trabajos previos para Rojas FC.
 - Reglas de negocio RN-01 a RN-29: cuotas, descuentos, recargos, pagos, recibos y preinscripciones.

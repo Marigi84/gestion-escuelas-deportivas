@@ -11,7 +11,7 @@ Las familias cargarán sus datos mediante Google Forms y las respuestas se guard
 
 - Las respuestas se incorporan inicialmente mediante una **importación** desde la aplicación.
 - Cada respuesta genera una **preinscripción**, nunca un alumno activo de forma automática.
-- El administrador revisa los datos, controla duplicados y aprueba, rechaza o marca la solicitud como incompleta.
+- El administrador revisa los datos, controla duplicados y aprueba o rechaza la solicitud. No hay estado "incompleta" porque los campos obligatorios se exigen en el formulario (actualizado el 2026-11-26, ver RN-27).
 - Al aprobar, se crea el alumno y se crea o vincula el tutor.
 
 ## Consecuencias

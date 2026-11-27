@@ -21,6 +21,7 @@
 | HU-10 | Como administrador, quiero registrar un pago y emitir el recibo en PDF, para entregarlo a la familia por WhatsApp. |
 | HU-11 | Como administrador, quiero imprimir el listado de alumnos activos por categoría, para usarlo en los entrenamientos. |
 | HU-12 | Como tutor, quiero ver la deuda y descargar los recibos de mis hijos, para tener control de los pagos. |
-| HU-13 | Como superadministrador, quiero crear una escuela y configurar su disciplina, para incorporarla a la plataforma. |
+| HU-13 | Como responsable de una escuela, quiero registrarla en la plataforma y configurar su disciplina, para empezar a usar el sistema. |
+| HU-14 | Como superadministrador, quiero crear una escuela en nombre de una institución, para incorporarla sin que tenga que registrarse sola. |
 
 Las historias del sistema de gestión se refinarán con criterios de aceptación después del capítulo de [reglas de negocio](../03-reglas-de-negocio/index.md).

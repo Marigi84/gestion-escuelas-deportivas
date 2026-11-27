@@ -28,7 +28,8 @@ Volumen de referencia para pruebas: 2.000 alumnos, 4.000 tutores, 100.000 cuotas
 
 - Autenticación y autorización por rol y escuela, verificada en el servidor.
 - Contraseñas con hash seguro.
-- Protección de datos de menores.
+- Protección de datos de menores: los datos de salud solo los ven los administradores de la escuela y no salen en listados ni exportaciones.
+- Anonimización de datos personales al vencer el plazo de conservación de una escuela dada de baja.
 - Acceso restringido a recibos.
 
 ## Integridad y trazabilidad

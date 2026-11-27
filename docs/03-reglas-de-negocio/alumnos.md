@@ -18,4 +18,4 @@
 
 ## Categorías
 
-**RN-36 – Categoría.** En Rojas FC la categoría de un alumno es su año de nacimiento y se calcula automáticamente. Otras escuelas pueden definir otro criterio ([ADR-004](../adr/0004-plataforma-multidisciplina.md)). Los cambios de grupo que decide el profesor no se gestionan en el sistema en la v1.0.
+**RN-36 – Categoría.** Cada escuela elige uno de dos criterios ([ADR-004](../adr/0004-plataforma-multidisciplina.md)): **por año de nacimiento**, calculada automáticamente (Rojas FC), o **asignada** a mano por el administrador. Cada categoría tiene sus días, horarios y lugar. Los cambios de grupo que decide el profesor no se gestionan en el sistema en la v1.0.

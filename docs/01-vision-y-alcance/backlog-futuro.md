@@ -12,7 +12,7 @@ Funcionalidades identificadas que quedan fuera de la v1.0:
 | Indumentaria | Talles, pedidos, entregas |
 | Estadísticas deportivas | Módulo opcional, depende de la disciplina |
 | Autorizaciones digitales | Firmas de tutores para viajes y actividades |
-| Notificaciones | Correo y push |
+| Notificaciones | Avisos por correo (deuda, vencimientos) y push; en la v1.0 solo correos transaccionales |
 | Aplicación móvil nativa | La v1.0 es PWA |
 | Planes comerciales | Para instituciones externas |
 | Eventos e indumentaria | Cobros de eventos deportivos e indumentaria por encargo, con pagos parciales (pendiente del Trabajo Final) |
@@ -22,3 +22,5 @@ Funcionalidades identificadas que quedan fuera de la v1.0:
 | Facturación electrónica | Integración con ARCA; en la v1.0 solo hay un enlace |
 | Cierre de sesiones | Cerrar las sesiones abiertas al cambiar la contraseña |
 | Portal con secciones desplegables | Mejora de uso detectada en el Trabajo Final |
+| Vocabulario por escuela | Términos propios de la interfaz ("profe" o "entrenador", "alumno" o "jugador") |
+| Campos adicionales del alumno | Datos propios de cada disciplina (posición, cinturón, talle) |

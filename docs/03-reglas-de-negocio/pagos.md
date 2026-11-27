@@ -8,10 +8,10 @@
 
 **RN-14 – Imputación.** Un pago cancela siempre la deuda **más antigua** del alumno primero: recargos y cuotas de los meses anteriores antes que los del mes en curso.
 
-**RN-15 – Pagos adelantados.** Se puede pagar por adelantado cuotas de meses que todavía no se generaron. Si luego aumenta el monto de la cuota (RN-02), la diferencia queda pendiente como saldo de ese mes.
+**RN-15 – Pagos adelantados.** Se puede pagar por adelantado cuotas de meses que todavía no se generaron. El importe queda como **saldo a favor** del alumno y se imputa automáticamente cuando se genera la cuota de ese mes. Si para entonces aumentó el monto (RN-02), la diferencia queda pendiente como saldo de ese mes.
 
 **RN-16 – Pago familiar.** Una familia con varios hijos puede hacer un único pago o transferencia por todas las cuotas. El administrador lo registra una vez como **operación** y la reparte entre los hermanos; el sistema genera un pago por alumno, vinculado a esa operación.
 
 **RN-17 – Confirmación del servidor.** Un pago es definitivo solo cuando el servidor lo confirma ([ADR-003](../adr/0003-pagos-confirmados-por-servidor.md)). No se registran pagos definitivos sin conexión.
 
-**RN-18 – Anulación.** Un pago no se borra. Se anula indicando motivo, y el sistema registra usuario y fecha. Al anularse, se revierte su imputación y se anulan los recibos asociados (RN-23).
+**RN-18 – Anulación.** Un pago no se borra. Se anula indicando motivo, y el sistema registra usuario y fecha. Al anularse, se revierte su imputación y se anulan los recibos asociados (RN-23). En un pago familiar (RN-16) se puede anular solo el pago de un alumno, y el resto de la operación queda igual; si el error es de toda la operación, se anulan todos sus pagos.
