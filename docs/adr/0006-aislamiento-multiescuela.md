@@ -33,3 +33,14 @@ El volumen esperado es bajo (decenas de escuelas, miles de alumnos).
 - Las claves únicas de negocio incluyen la escuela (por ejemplo, DNI del alumno por escuela, número de recibo por escuela).
 - Se necesitan pruebas automáticas de aislamiento: un usuario de la escuela A nunca obtiene datos de la escuela B.
 - RLS agrega una configuración por transacción; si complicara el desarrollo, puede postergarse sin cambiar el modelo, porque la columna `escuela_id` ya está.
+
+## Volumen y crecimiento
+
+- Con 50 escuelas de 300 alumnos y 10 años de historia habría alrededor de 1,8 millones de cuotas. PostgreSQL maneja tablas mucho más grandes si las consultas usan índices.
+- Todas las tablas con `escuela_id` llevan un índice que empieza por esa columna, así que las consultas de una escuela no recorren los datos de las demás.
+- El rendimiento depende sobre todo de paginar en el servidor y no cargar historiales completos ([RNF](../02-requisitos/requisitos-no-funcionales.md)).
+- Si una tabla creciera mucho, PostgreSQL permite **particionarla** por escuela sin cambiar la aplicación.
+
+## Cuándo convendría separar una escuela
+
+Una base propia para una escuela se justificaría ante una exigencia legal o contractual, o ante un cliente con un volumen muy superior al resto. Como cada fila tiene `escuela_id`, sus datos pueden extraerse y migrarse a una base aparte sin rediseñar el modelo.
