@@ -21,3 +21,5 @@
 **RN-53 – Altas y bajas.** Reporte de altas y bajas de alumnos en un período.
 
 **RN-54 – Formatos y permisos.** Los listados se pueden exportar a Excel, PDF o vista de impresión. Solo los ven los administradores de la escuela. No incluyen datos de salud (RN-26).
+
+**RN-64 – Eventos e indumentaria.** El administrador puede ver, para cada evento, cuántos y qué alumnos participan, con lo pagado y el saldo de cada uno y filtro por categoría. También puede ver cuántos y qué alumnos encargaron indumentaria, con la descripción del pedido, lo pagado y el saldo, filtrando por fechas y por categoría.
