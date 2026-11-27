@@ -18,6 +18,9 @@ Los términos del dominio están definidos en el [glosario](glosario.md).
 | [Usuarios y escuelas](usuarios-y-escuelas.md) | RN-37 a RN-43 |
 | [Portal de familias](portal.md) | RN-44 a RN-48 |
 | [Dashboard y reportes](reportes.md) | RN-49 a RN-54 |
+| [Eventos e indumentaria](eventos-e-indumentaria.md) | RN-55 a RN-60 |
+
+Las reglas RN-61 a RN-63 se agregaron después en sus capítulos: RN-61 y RN-62 en [cuotas](cuotas.md) y RN-63 en [pagos](pagos.md).
 
 ## Configuración por escuela
 
@@ -25,13 +28,12 @@ Los términos del dominio están definidos en el [glosario](glosario.md).
 |---|---|---|
 | Monto de la cuota | Único para todos los alumnos | RN-01 |
 | Frecuencia de actualización | Aprox. 3 veces al año | RN-02 |
-| Meses sin cuota | Enero | RN-04 |
-| Apertura del mes | Manual por el administrador | RN-03 |
+| Apertura del mes | Manual por el administrador | RN-03, RN-61 |
 | Vencimiento | Variable por mes; se sugiere el día 10 | RN-05 |
 | Descuento por hermanos | Porcentaje fijo | RN-06 |
 | Recargo por mora | Porcentaje sugerido, confirmado al abrir el mes; un escalón | RN-08, RN-09 |
 | Formas de pago | Efectivo y transferencia | RN-11 |
-| Criterio de categoría | Año de nacimiento (o asignada a mano) | RN-36 |
+| Categoría | Año de nacimiento, calculada | RN-36 |
 
 ## Ejemplo integrado
 

@@ -10,7 +10,7 @@
 | RF-01 | El sistema debe permitir que una escuela se registre sola (o que la cree el superadministrador), y que se edite, desactive y personalice (nombre, logo, colores, contacto, disciplinas). | Escuelas |
 | RF-02 | El sistema debe permitir gestionar usuarios con los roles superadministrador, administrador de escuela y tutor. | Usuarios |
 | RF-03 | Un usuario debe poder tener permisos de administrador en una o varias escuelas; en la v1.0 la interfaz trabaja con una escuela a la vez. | Usuarios |
-| RF-04 | El sistema debe permitir que cada escuela defina sus categorías (por edad, nivel, género o turno), con días, horarios y lugar. | Categorías |
+| RF-04 | El sistema debe calcular la categoría de cada alumno a partir de su año de nacimiento. | Categorías |
 | RF-05 | El sistema debe importar respuestas de preinscripción desde Google Sheets (alimentado por Google Forms). | Preinscripciones |
 | RF-06 | Cada respuesta importada debe generar una preinscripción, nunca un alumno activo. | Preinscripciones |
 | RF-07 | El administrador debe poder revisar una preinscripción, detectar duplicados y aprobarla o rechazarla. | Preinscripciones |
@@ -18,13 +18,15 @@
 | RF-09 | El sistema debe permitir gestionar alumnos: alta, baja, reingreso, categoría, observaciones e historial. | Alumnos |
 | RF-10 | Un alumno puede tener varios tutores y un tutor puede estar vinculado a varios alumnos. | Tutores |
 | RF-11 | El administrador debe abrir cada mes (monto, vencimiento y recargo) y el sistema debe generar las cuotas de ese mes y calcular la deuda y los recargos por mora. | Cuotas |
-| RF-12 | El administrador debe poder registrar pagos, con confirmación del servidor. | Pagos |
+| RF-12 | El administrador debe poder registrar pagos con su fecha de pago, repartidos entre alumnos y conceptos, con confirmación del servidor. | Pagos |
 | RF-13 | El sistema debe emitir recibos numerados en PDF a nombre del alumno, descargables y compartibles por WhatsApp mediante un botón que abre el chat. | Recibos |
 | RF-14 | El tutor debe poder consultar en el portal los alumnos vinculados, cuotas, deuda, pagos y descargar recibos. | Portal de familias |
 | RF-15 | El sistema debe ofrecer reportes y listados exportables a Excel, PDF y vista de impresión (prioridad: alumnos activos por categoría). | Reportes |
 | RF-16 | El sistema debe registrar auditoría de las operaciones relevantes. | Auditoría |
-| RF-17 | La aplicación debe permitir consulta offline de datos sincronizados y registrar cambios no críticos en una cola local. | Offline |
+| RF-17 | La aplicación debe permitir consulta offline de datos sincronizados y registrar sin conexión cambios no críticos y pagos, que quedan pendientes hasta que el servidor los confirma. | Offline |
 | RF-18 | El sistema debe enviar correos transaccionales: verificación de mail del administrador y acceso al portal para tutores sin WhatsApp. | Notificaciones |
+| RF-19 | El administrador debe poder crear eventos con precio único, anotar alumnos y registrar sus pagos parciales. | Eventos |
+| RF-20 | El administrador debe poder registrar pedidos de indumentaria por alumno, con importe y descripción, y sus pagos parciales. | Indumentaria |
 
 ## Sitio público
 

@@ -8,4 +8,4 @@
 
 **RN-47 – Restablecimiento.** Si el tutor olvida la contraseña, el administrador la restablece: vuelve a ser el DNI, con cambio obligatorio en el siguiente ingreso.
 
-**RN-48 – Solo consulta.** Todos los tutores vinculados a un alumno ven la misma información. El tutor consulta los alumnos vinculados, sus cuotas, deuda, historial de pagos y recibos. No puede modificar datos: cualquier cambio lo hace el administrador.
+**RN-48 – Solo consulta.** Todos los tutores vinculados a un alumno ven la misma información. El tutor consulta los alumnos vinculados, sus cuotas, eventos y pedidos de indumentaria, la deuda separada por concepto, el historial de pagos y los recibos. No puede modificar datos: cualquier cambio lo hace el administrador.

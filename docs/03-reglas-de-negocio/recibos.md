@@ -1,8 +1,8 @@
 # Recibos
 
-**RN-19 – Generación automática.** Al registrar un pago, el sistema genera el recibo automáticamente con los datos ya cargados (alumno, período, fecha), sin volver a ingresarlos. Se emite **un recibo por alumno**.
+**RN-19 – Generación automática.** Al registrar un pago, el sistema genera el recibo automáticamente con los datos ya cargados (alumno, concepto, período, fecha), sin volver a ingresarlos. Se emite **un recibo por pago**: uno por alumno y por concepto.
 
-**RN-20 – Contenido.** El recibo se emite **a nombre del alumno** e incluye: datos de la escuela, número de recibo, fecha, alumno, período o períodos cancelados, importe, forma de pago y, si corresponde, el **saldo pendiente**.
+**RN-20 – Contenido.** El recibo se emite **a nombre del alumno** e incluye: datos de la escuela, número de recibo, fecha de pago, alumno, concepto (cuota, evento o indumentaria), período, evento o pedido cancelado, importe, forma de pago y, si corresponde, el **saldo pendiente**.
 
 **RN-21 – Numeración.** Los recibos se numeran de forma correlativa por escuela. La estrategia técnica se formalizará en un ADR.
 
