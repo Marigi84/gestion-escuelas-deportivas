@@ -9,9 +9,9 @@
 | Alumno | Nombre y apellido, DNI, fecha de nacimiento, domicilio | Escuela a la que asiste, alergias o condiciones médicas, apto médico |
 | Tutor | Nombre, apellido, DNI, teléfono/WhatsApp | Mail, contacto de emergencia |
 
-Cada escuela puede agregar campos propios ([ADR-004](../adr/0004-plataforma-multidisciplina.md)). Los datos de salud se tratan como sensibles.
+Los datos de salud (alergias, condiciones médicas y apto médico) son sensibles: solo los ven los administradores de la escuela y no aparecen en listados ni exportaciones. El apto médico es opcional y se guarda como archivo (PDF o imagen), sin control de vencimiento. Los campos propios por escuela quedan para una versión futura ([ADR-004](../adr/0004-plataforma-multidisciplina.md)).
 
-**RN-27 – Aprobación.** El administrador revisa la preinscripción. Si la aprueba, se crea el alumno y se crea o vincula el tutor. Si la rechaza, se descarta y no genera alumno.
+**RN-27 – Aprobación.** Una preinscripción está **pendiente**, **aprobada** o **rechazada**. Como los campos obligatorios se exigen en el formulario, no hay estado "incompleta". El administrador la revisa: si la aprueba, se crea el alumno y se crea o vincula el tutor; si la rechaza, no genera alumno.
 
 **RN-28 – Carga directa.** El administrador también puede dar de alta un alumno cargando los datos él mismo en el momento, sin pasar por el formulario.
 
