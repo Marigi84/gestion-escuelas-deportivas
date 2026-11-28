@@ -1,7 +1,7 @@
 # Modelo de datos
 
 !!! info "Modelo conceptual revisado"
-    Modelo conceptual de la v1.0, revisado el 27/11/2026 a partir de las [reglas de negocio](../03-reglas-de-negocio/index.md) y de los ADR [006](../adr/0006-aislamiento-multiescuela.md) a [009](../adr/0009-numeracion-de-recibos.md). Los términos siguen el [glosario](../03-reglas-de-negocio/glosario.md). Próximos pasos: casos de uso, DER, modelo lógico (relacional) y modelo físico.
+    Modelo conceptual de la v1.0, revisado el 27/11/2026 a partir de las [reglas de negocio](../03-reglas-de-negocio/index.md) y de los ADR [006](../adr/0006-aislamiento-multiescuela.md) a [009](../adr/0009-numeracion-de-recibos.md). Los términos siguen el [glosario](../03-reglas-de-negocio/glosario.md). El detalle de atributos, cardinalidades y restricciones está en el [DER en notación de Chen](der.md). Próximos pasos: modelo lógico (relacional) y modelo físico.
 
 ## Principios
 

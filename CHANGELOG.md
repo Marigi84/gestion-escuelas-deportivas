@@ -5,6 +5,10 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). E
 ## [Sin publicar]
 
 ### Agregado
+- Casos de uso por actor, con diagramas y el formato completo (disparador, precondiciones, flujos, excepciones y postcondiciones) para CU-02, CU-05, CU-10, CU-15 y CU-16.
+- DER conceptual en notación de Chen: diagrama completo y cinco vistas, atributos, relaciones con cardinalidad y participación, operaciones del administrador, restricciones no representables y elementos que pasan al modelo físico.
+- Propuesta de módulos: 12 módulos con su responsabilidad, requisitos cubiertos, casos de uso y prioridad.
+- RN-64: reportes de participantes de eventos y pedidos de indumentaria.
 - Modelo conceptual de datos revisado.
 - Reglas de eventos e indumentaria (RN-55 a RN-60) y RN-61 a RN-63; pagos sin conexión en la v1.0.
 - ADR-006 a ADR-009 (aceptadas el 2026-11-27): aislamiento multiescuela, stack tecnológico, historial y auditoría, y numeración de recibos.

@@ -20,7 +20,7 @@ Los términos del dominio están definidos en el [glosario](glosario.md).
 | [Dashboard y reportes](reportes.md) | RN-49 a RN-54 |
 | [Eventos e indumentaria](eventos-e-indumentaria.md) | RN-55 a RN-60 |
 
-Las reglas RN-61 a RN-63 se agregaron después en sus capítulos: RN-61 y RN-62 en [cuotas](cuotas.md) y RN-63 en [pagos](pagos.md).
+Las reglas RN-61 a RN-64 se agregaron después en sus capítulos: RN-61 y RN-62 en [cuotas](cuotas.md), RN-63 en [pagos](pagos.md) y RN-64 en [reportes](reportes.md).
 
 ## Configuración por escuela
 
