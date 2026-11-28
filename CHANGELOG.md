@@ -5,6 +5,10 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). E
 ## [Sin publicar]
 
 ### Agregado
+- Requisitos no funcionales numerados y verificables (RNF-01 a RNF-33) y requisitos de dominio (RD-01 a RD-05).
+- Criterios de aceptación Dado / Cuando / Entonces para HU-09, HU-10, HU-12, HU-15 y HU-16 (nuevas).
+- Registro de interesados con matriz poder / interés.
+- Riesgos con probabilidad, impacto, respuesta, mitigación y contingencia; supuestos y restricciones.
 - Casos de uso por actor, con diagramas y el formato completo (disparador, precondiciones, flujos, excepciones y postcondiciones) para CU-02, CU-05, CU-10, CU-15 y CU-16.
 - DER conceptual en notación de Chen: diagrama completo y cinco vistas, atributos, relaciones con cardinalidad y participación, operaciones del administrador, restricciones no representables y elementos que pasan al modelo físico.
 - Propuesta de módulos: 12 módulos con su responsabilidad, requisitos cubiertos, casos de uso y prioridad.

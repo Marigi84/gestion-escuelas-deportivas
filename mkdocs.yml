@@ -86,7 +86,8 @@ nav:
   - Gestión:
       - Roadmap: gestion/roadmap.md
       - Flujo de trabajo: gestion/flujo-de-trabajo.md
-      - Riesgos: gestion/riesgos.md
+      - Interesados: gestion/interesados.md
+      - Riesgos, supuestos y restricciones: gestion/riesgos.md
       - Minutas:
           - 2026-11-26 Minuta inicial: gestion/minutas/2026-11-26-minuta-inicial.md
           - 2026-11-26 Reglas de negocio: gestion/minutas/2026-11-26-reglas-de-negocio.md
