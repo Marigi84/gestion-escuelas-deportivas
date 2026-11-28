@@ -53,6 +53,7 @@ nav:
       - No funcionales: 02-requisitos/requisitos-no-funcionales.md
       - Historias de usuario: 02-requisitos/historias-de-usuario.md
       - Casos de uso: 02-requisitos/casos-de-uso.md
+      - Propuesta de módulos: 02-requisitos/modulos.md
   - Reglas de negocio:
       - Índice: 03-reglas-de-negocio/index.md
       - Glosario: 03-reglas-de-negocio/glosario.md
@@ -65,7 +66,9 @@ nav:
       - Portal de familias: 03-reglas-de-negocio/portal.md
       - Dashboard y reportes: 03-reglas-de-negocio/reportes.md
       - Eventos e indumentaria: 03-reglas-de-negocio/eventos-e-indumentaria.md
-  - Modelo de datos: 04-modelo-de-datos/index.md
+  - Modelo de datos:
+      - Modelo conceptual: 04-modelo-de-datos/index.md
+      - DER (notación de Chen): 04-modelo-de-datos/der.md
   - Arquitectura: 05-arquitectura/index.md
   - Sitio público: 06-sitio-publico/rojas-fc.md
   - ADR:
